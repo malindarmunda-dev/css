@@ -38,22 +38,20 @@
               float:left;
           }
           #slidearea{
-              width:1200px;
-              height:300px;
+              width:1000px;
+              height:200px;
               background:red;
               float:left;
+              padding-left:100px;
+              padding-right:100px;
+              padding-top:50px;
+              padding-bottom:50px;
           }
           #sarea{
             width:1000px;
               height:200px;
               background:skyblue;
                float:left;
-               margin-top:50px;
-               margin-right:100px;
-               margin-bottom:50px;
-               margin-left:100px;
-             margin:50px 100px 50px 100px;
-              margin:50px 100px;
           }
           #darea{
               width:1200px;
@@ -81,35 +79,35 @@
               background:darkgreen;
               float:left;
           }
-          #box1{
-              width:300px;
-              height:200px;
-              background:skyblue;
-              
-              
+          .box{
+              width:260px;
+              height:160px;
               float:left;
               margin:50px;
+             /* border-top-style:solid;
+              border-top-width:20px;
+              border-top-color:black;*/
+             /* border-top:solid 20px black;*/
+              border:solid 20px transparent;
           }
-         #box2{
-              width:300px;
-              height:200px;
-              background:grey;
-              float:left;
-              margin:50px;
+          /*.box:hover{
+                border:solid 20px pink;
+          }*/
+          .bg1{
+              background:yellow;
           }
-          #box3{
-              width:300px;
-              height:200px;
+          .bg2{
+              background:purple;
+          }
+          .bg3{
               background:red;
-              float:left;
-              margin:50px;
           }
+        
           #footerarea{
               width:1200px;
               height:410px;
               background:red;
-              float:left;
-              
+              float:left;         
           }
           #f1{
               width:300px;
@@ -126,13 +124,13 @@
           #f3{
              width:300px;
               height:410px;
-              background:pink;
+              background:pink   ;
               float:left;
           }
           #f4{  
               width:300px;
               height:410px;
-              background:660D26;
+              background:#660D26;
               float:left;
           }
         </style>
@@ -160,11 +158,16 @@
              
             </div>
              <div id="boxarea">
-                 <div id="box1">
+                 <div class="box bg1">
+                 <img src="bg3.webp"/>
                   </div>
-                <div id="box2">
+                <div class="box bg2">
+                <img src="bg4.webp"/>
+  
                 </div>
-                <div id="box3">
+                <div class="box bg3">
+                <img src="bg5.webp"/>
+  
                 </div>
             </div>
             
