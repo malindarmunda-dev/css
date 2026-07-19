@@ -45,28 +45,32 @@
          text-align:center;
          text-decoration:none;
        }
-       .book{
-         width:100px;
-         height:200px;
-         float:left;
-         margin-left:150px;
-         margin-top:13px;
-       }
-       .book h5{
-         width:100%;
-         height:100%;
-         border-radius:#800000;
-         color:white;
-         padding:5px 8px;
-         display:block;
-         margin:0;
-         font-family:arial;
-         text-align:center;
-       }
-       .book h5:hover{
-         background:none;
-         border:none;
-       }
+        #menuarea{
+              width:1200px;
+              height:40px;
+              background:black;
+              float:left;
+          }
+            #menuarea ul{
+              list-style:none;
+              margin:0;
+              padding:0px;
+          }
+          #menuarea ul li{
+              float:left;
+          }
+          #menuarea ul li a:link,#menuarea ul li a:visited{
+                text-decoration:none;
+                color:red;
+                display:block;
+                border-right:solid 1px black;
+                padding:10px 25px;
+          }
+          #menuarea ul li a:hover{
+              color:black;
+              background:#800000;
+          }
+
        .boxarea{
          width:1600px;
          height:150px;
@@ -93,6 +97,7 @@
          margin:0;
          float:left;
          margin-right:100px;
+         padding:-150px;
        }
        .boxhouse h2{
          color:#D5B455;
@@ -340,7 +345,7 @@
           #footerarea{
               width:1200px;
               height:410px;
-              backg.photoarea{
+        
         width:1600px;
         height:800px;
         background:;
@@ -391,7 +396,11 @@
       
         font-family:cursive;
         padding:15px;
-        margin:10px;
+        margin:10px;<a href="https://www.google.com">google</a>
+                       <a href="https://www.youtube.com">youtube</a>
+                       <a href="https://mpsckp.com.com">mps</a>
+                       <a href="https://gpa.ac.in.com">gpa</a>
+   
       }
       .segmentpic{
         width:250px;
@@ -405,10 +414,11 @@
       }
       .boxes{
           background:grey;
-          width:1600px;
+          width:1500px;
           height:500px;
           margin-right:100px;
-          margin-top:50px;
+          margin-top:10px;
+          float:right;
       }
       .segment1{
         width:350px;
@@ -516,7 +526,15 @@
         </div>
       </div>
     </div>
-    <div class="boxarea">
+      <div id="menuarea" >
+                  <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+             </div>
+   
       <div class="boxlogo">
         <img src="logo.jpg"/>
       </div>
@@ -527,16 +545,7 @@
       <div class="boxhouse2">
       
       <div class="boxspecial">
-                        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">SERVICE</a></li>
-          <li><a href="">PLANNING</a></li>
-          <li><a href="">GALLERY</a>
-          </li>
-        </ul>
-
-              </div>
+      </div>
     </div>
     <div class="photoarea">
       <img src="1.webp"/>
