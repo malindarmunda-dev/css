@@ -1,178 +1,692 @@
 
-
 <html>
-    <head>
-      <title>index.html</title>
-        <style type="text/css">
-    
-    body{
+  <head>
+    <title></title>
+     <style type="text/css">
+       body{
+         margin:0;
+       }
+       .mainarea{
+         width:1600px;
+         height:50px;
+         background:#D5B455;
+       }
+       .detailare{
+         width:80%;
+         height:70%;
+       }
+       .number{
+         width:100px;
+         height:50px;
+         float:left;
+         margin-left:300px;
+         margin-top:15px;
+       }
+       .number a:link,number a:visited{
+         font-weight:bold;
+         font-style:arial;
+         margin:0;
+         color:#800000;
+         text-align:center;
+         text-decoration:none;
+       }
+       .email{
+         width:200px;
+         height:20px;
+         float:left;
+         margin-left:50px;
+         margin-top:15px;
+       }
+       .email a:link,email a:visited{
+         font-weight:bold;
+         font-style:arial;
+         margin:0;
+         color:#800000;
+         text-align:center;
+         text-decoration:none;
+       }
+       .book{
+         width:100px;
+         height:200px;
+         float:left;
+         margin-left:150px;
+         margin-top:13px;
+       }
+       .book h5{
+         width:100%;
+         height:100%;
+         border-radius:#800000;
+         background:;
+         color:white;
+         padding:5px 8px;
+         display:block;
+         margin:0;
+         font-family:arial;
+         text-align:center;
+       }
+       .book h5:hover{
+         background:none;
+         border:none;
+       }
+       .boxarea{
+         width:1600px;
+         height:150px;
+         background:#000;
+       }
+       .box logo{
+         width:200px;
+         height:148px;
+         margin-left:-180px;
+         float:left;
+       }
+      .boxlogo img{
+         width:200px;
+         height:140px;
+         border-radius:50%;
+         margin:0;
+       }
+       .boxhouse{
+         width:250px;
+         height:130px;
+         margin-left:50px;
+         float:left,;
+         margin-top:20px;
+       }
+       .boxhouse h2{
+         color:#D5B455;
+         text-align:center;
+         font-family:helvetica;
+       }
+        .boxhouse h3 {
+         color: #D5B455;
+         text-align: center;
+         font-family: helvetica;
+      }
+      boxspecial{
+        width:750px;
+        height:70px;
+        float:left;
+        margin-left:50px;
+        margin-top:55px;
+      }
+      .boxspecial ul{
+        list-style:none;
+      }
+      .boxspecial ul li{
+        float:left;
+      }
+     .boxspecial a:link,boxapecial a:visited{
+          border-radius: #800000;
+         background: ;
+          color: white;
+         padding: 5px 8px;
+         display: block;
+         margin: 0;
+         font-family: arial;
+         text-align: center;
+      }
+      .boxspecial ul li a:hover{
+        background:#D5B355;
+        color:#800000;
+      }
+      .boxspecial ul li ul{
+        display:none;
+      }
+      .boxspecial ul li:hover ul{
+        display:block;
+        positio:absolute
+      }
+      .boxspecial ul li:hover ul li{
+        float:none;
+        background:black;
+      }
+      .photoarea{
+        width:1500px;
+        height:1000px;
+        background:yellow;
+        margin:0 auto;
+      }
+      .photoarea img{
+        width:100%;
+        height:100%;
+      }
+      .titlearea{
+        width:1500px;
+        height:800px;
+        background:white;
+        margin:0 auto;
+      }
+      .titlebar{
+        width:900px;
+        height:100px;
+        background:white;
+        margin:0 auto;
+        padding:10px;
+      }
+      .titlebar h1{
+        color:#DBA817;
+        text-align:center;
+        margin:0 auto;
+        padding:30px;
+        font-family:georgia serif;
+        font-style:italic;
+        font-size:40px;
+      }
+      .textarea{
+        width:1000px;
+        height:100px;
+        background:white;
+        margin:10px auto;
+        padding-bottom:10px;
+      }
+      .textarea p{
+        color:#800000;
+        text-align:center;
+        font-family:arial;
+        font-size:25px;
+      }
+      .menuarea{
+        width:1450px;
+        height:470px;
+        background:white;
+        margin:10px auto;
+        border-bottom:solid 1px black;
+      }
+      .m1area{
+        width:300px;
+        height:200px;
+        float:left;
+        margin-left:70px;
+        margin-top:100px;
+        border-radius:30px;
+        background:white;
+      }
+      .m1area img{
+        width:100%;
+        height:10%;
+        border-radius:30px;
+      }
+      .welcome{
+        width:900px;
+        height:450px;
+        margin-top:20px;
+        background:white;
+        float:left;
+      }
+      .tent{
+        width:650px;
+        height:100px;
+        background:white;
+        margin-left:30px;
+        margin-top;50px;
+      }
+      .canvas{
+        width:700px;
+        height:300px;
+        background:white;
+        margin-left:30px;
+      }
+      .canvas p{
+        text-align:left;
+        font-size:20px;
+        text-align:justify;
+        font-family:corbel;
+        color:#687B7C;
         margin:0;
-        }
-        #mainarea{
-              width:1200px;
-              height:1500px;
-              background:orange;
-              margin:0 auto;
-        }
-        #toparea{
-              width:1200px;
-              height:150px;
-              background:pink;
-          }
-          #logoarea{
-              width:150px;
-              height:150px;
-              background:purple;
+      }
+      .segment{
+        width:1450px;
+        height:600px;
+        background:pink;
+        margin-left:35px;
+        margin-top;60px;
+      }
+      .oursegment{
+        width:1450px;
+        height:140px;
+        background:white;
+      }
+      .oursegment h1{
+        text-align:center;
+        font-size:30px;
+      
+        font-family:cursive;
+        padding:15px;
+        margin:10px;
+      }
+      .segmentpic{
+        width:250px;
+        height:50px;
+        margin-left:590px;
+        margin-top;15px;
+      }
+      .segmentpic img{
+        width:100%;
+        height:100%;
+      }
+      .segmentbox{
+        width:900px;
+        height:450px;
+        margin-top:20px;
+        background:white;
+        float:left;
+        background-image:url('bg2.webp');
+      }
+      s1{
+        width:350px;
+height:240px;
+float:left;
+margin-left:120px;
+margin-top:120px;
+border-radius:40px;
+background:skyblue;
+      }
+      .bg1{
+        background:#A6051E;
+      }
+      .decor{
+        width:330px;
+        height:350px;
+        margin-left:10px;
+        border-bottom:dotted 1px white;
+      }
+      .decor h3{
+        color: white;
+        text-align:center;
+      }
+      .becorbox{
+        width:340px;
+        height:170px;
+      }
+      .decorbox p{
+        text-align:center;
+       font-size:10px;
+      
+       font-family:constantia;
+       color:white;
+      margin:11px;
+      }
+      .bg2{
+        background:#176C94;
+      }
+      .bg3{
+        background:#E8581B;
+      }
+      .tenting{
+        width:1420px;
+        height:400px;
+        margin-top:35px;
+        background:red;
+      }
+      .ourtent{
+        width:1450px;
+        height:140px;
+        margin-top:30px;
+        background:white;
+      }
+      .ourtent{
+        text-align:center;
+        font-size:40px;
+        font-family:cursive;
+       color:white;
+       margin-top:15px;
+      }
+      .tentpic{
+        width:250px;
+        height:50px;
+        margin-left:590px;
+        margin-top:-15px;
+      }
+      .tentpic img{
+        width:100%;
+        height:100%;
+      }
+      .tentbox{
+        width:1450px;
+        height:285px;
+        margin-top:-25px;
+        background:white;
+        float:left;
+      }
+      .t1{
+        width:400px;
+        height:250px;
+        margin-top:60px;
+        background:#3E3536;
+        float:left;
+      }
+      .t1 img{
+        width:100%;
+        height:100%;
+      }
+      .couplearea{
+        width:1450px;
+        height:800px;
+        margin-left:10px;
+        margin-top:20px;
+        background:white;
+      }
+      .couple{
+        width:500px;
+        height:750px;
+        float:left;
+      }
+      .c1{
+        width:370px;
+        height:300px;
+        margin-left:100px;
+        margin-top:60px;
+        border-radius:50px;
+      }
+      .c1 img{
+        width:100%;
+        height:100%;
+        border-radius:50%;
+        margin-top:0px;
+      }
+      .f1{
+        margin:0;
+        margin-left:100px;
+        margin-top:60px;
+        float:none;
+      }
+      .couple2{
+        width:400px;
+        height:750px;
+        float:left;
+        margin:20px;
+      }
+      .marrage{
+        width:380px;
+        height:500px;
+        border:solid 3px #D5B455;
+        margin-top:100px auto;
+      }
+      .plan{
+        width:350px;
+        height:60px;
+        margin:20px auto;
+      }
+      .plan h2{
+        text-align:center;
+        font-size:35px;
+        font-family:cursive;
+        margin:0;
+      }
+      .with{
+        width:250px;
+         height:500px;
+         margin:18px auto;
+      }
+      .with h2{
+        text-align:center;
+        font-size:25px;
+        font-family:cursive;
+       color:#777B76;
+       margin:0px;
+      }
+      .bandhan{
+        width:330px;
+        height:300px;
+        margin-left:20px;
+        margin-top:20px;
+      }
+      .bandhan img{
+        width:100%;
+        height:100%;
+      }
+      .now{
+        width:170px;
+         height:40px;
+         border:30px;
+         margin:5px auto;
+      }
+      .now3{
+        text-align:center;
+        font-size:20px;
+        color:white;
+        font-family:arial;
+        padding:8px 25px;
+        margin:0px;
+        background:#800000;
+        border-radius:30px;
+      }
+      .now h3:hover{
+        background:#D5B455;
+      }
+      .couple3{
+        width:450px;
+        height:750px;
+        float:left;
+        margin-left:50px;
+      }
+      .c3{
+        width:370px;
+        height:290px;
+        margin-left:40px;
+        margin-top:60px;
+        border-radius:50%;
+      }
+      .c3 img{
+        width:100%;
+        height:100%;
+      
+        margin-top:0px;
+        border-radius:50%;
+      }
+      .f2{
+        margin:0;
+        margin-left:50px;
+        margin-top:60px;
+        float:none;
+      }
+      .venuearea{
+        width:1400px;
+       height:600px;
+
+       margin-top:0px auto;
+       border:solid 1px black;
+      }
+      .venues{
+        width:200px;
+         height:40px;
+         border:solid 1px blue;
+         margin:0px auto;
+      }
+      .venues h2{
+             text-align:center;
+            font-size:25px;
+            font-family:arial;
+            margin-top:0px;  }
+            .localarea{
+              width:600px;
+              height:80px;
+             border:solid 1px blue;
+              margin:10px auto;
+            }
+            .localarea ul{
+              list-style:none;
+            }
+            .localarea ul li{
               float:left;
-          }
-          #titlearea{
-              width:1050px;
-              height:150px;
-              background:skyblue;
-              float:left;
-          }
-        #menuarea{
-              width:1200px;
-              height:40px;
-              background:yellow;
-              float:left;
-          }
-          #slidearea{
-              width:1000px;
-              height:200px;
-              background:red;
-              float:left;
-              padding-left:100px;
-              padding-right:100px;
-              padding-top:50px;
-            #42445A    padding-bottom:50px;
-          }
-          #sarea{
-            width:1000px;
-              height:200px;
-              background:skyblue;
-               float:left;
-          }
-          #darea{
-              width:1200px;
-              height:300px;
-              background:yellow;
-              float:left;
-          }
-           #leftarea{
-              width:500px;
-              height:200px;
-              background:blue;
-              float:left;
-              margin:50px;
-          }
-          #rightarea{
-              width:500px;
-              height:200px;
-              background:purple ;
-              float:left;
-              margin:50px;
-          }
-          #boxarea{
-              width:1200px;
-              height:300px;
-              background:darkgreen;
-              float:left;
-          }
-          .box{
-              width:260px;
-              height:160px;
-              float:left;
-              margin:50px;
-             /* border-top-style:solid;
-              border-top-width:20px;
-              border-top-color:black;*/
-              border-top:solid 20px black;
-              border:solid 20px black;
-          }
-          .bg1{
-              background:yellow;
-          }
-          .bg2{
-              background:purple;
-          }
-          .bg3{
-              background:red;
-          }
-        
-          #footerarea{
-              width:1200px;
-              height:410px;
-              background:red;
-              float:left;         
-          }
-          #f1{
-              width:300px;
-              height:410px;
-              background:purple;
-              float:left;
-          }
-          #f2{        
-              width:300px;
-              height:410px;
-              background:skyblue;
-              float:left;
-          }
-          #f3{
-             width:300px;
-              height:410px;
-              background:pink   ;
-              float:left;
-          }
-          #f4{  
-              width:300px;
-              height:410px;
-              background:#660D26;
-              float:left;
-          }
-        </style>
-    </head>
-    <body>
-        <div id="mainarea" >
-        
-             <div id="toparea">
-                <div id="logoarea">
-                </div>
-                <div id="titlearea">
-                </div>
-             </div>
-            <div id="menuarea" >
-             </div>
-             <div id="slidearea">
-             <div id="sarea">
-             </div>
-             </div>
-             <div id="darea">
-                 <div id="leftarea">
-                  </div>
-                  <div id="rightarea">
-                 </div>
-             
+            }
+             .localarea a:link,localarea a:visited{
+               text-decoration:none;
+          border-radius:50px;
+         background:none ;
+          color:#D5B455;
+         padding: 10px 15px;
+         display: block;
+         margin: 0;
+         font-family: arial;
+         text-align: center;
+      }
+     </style>
+  </head>
+  <body>
+    <div class="mainarea">
+      <div class="detail">
+        <div class="number">
+          <a href="">7261028297</a>
+        </div>
+        <div class="email">
+          <a href="">eshakumathsr19@gmail.com</a>
+        </div>
+        <div class="book">
+          <h5>booknow</h5>
+        </div>
+      </div>
+    </div>
+    <div class="bookarea">
+      <div class="booklogo">
+        <img src="a.jpg"/>
+      </div>
+      <div class="boxhouse">
+        <h2>RKtent house</h2>
+        <h3>make your event special!!</h3>
+      </div>
+      <div class="boxspecial">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">SERVICE</a></li>
+          <li><a href="">PLANNING</a></li>
+          <li><a href="">GALLERY</a></li>
+        <ul>
+         <li><a href="">my works</a></li>
+        <li><a href="">haldi</a></li>
+        <li><a href=""handi</a></li>
+        <li><a href="">stage</a></li>
+        <li><a href="">passage</a></li>
+        <li><a href="">birthday</a></li>
+        </ul>
+        <li><a href="">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="photoarea">
+      <img src="a.jpg"/>
+    </div>
+    <div class="titlearea">
+      <div vlass="titlebar">
+        <h1>welcome to rk tent house"R.K. Tent House" is a wedding designing and event planning company, set up almost three decades ago with an extensive in - house production facility, from idea to reality, from fabric to upholstery and from flowers to lighting.</h1>
+      </div>
+      <div class="menuarea">
+        <div class="m1area">
+          <img src="a.jph"/>
+        </div>
+        <div class="welcome">
+          <div class="tent">
+            <p>“R.K Tent House is committed to excellence and offers you the world-class decoration, Tents, and Catering Management Services for your wedding ceremony, religious, parties, events, etc."</p>
+          </div>
+          <div class="canvas">
+            <p>We are one of the leading Canvas and Catering Services providers in Jamshedpur and we offer event management services comprising a wide range of well designed and customizable packages as per the requirements of large institutions, clubs, corporate houses, hotels, and private party, etc. The services offered by us are wholesome, well delivered, reliable, and can be availed at a very short notice period that has gained us widespread popularity among clients in the domestic market.
+
+We offer a range of services, basically categorized as tentage and catering services, to serve efficiently and reliably for all occasions. In the tentage services, we offer Tent Erection, Lighting, Floral Decorations, Sound Systems, DJ, Dance floors for occasions such as Reception Parties, Marriages, Fairs, and Family Functions, etc.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="segment">
+      <div class="oursegment">
+        <h1>our segment</h1>
+        <div class="segmentpic">
+          <img src="a.jpg">
+        </div>
+      </div>
+      <div class="segmentbox">
+        <div class="s1 bg1">
+          <div class="decor">
+            <h1>WEDDING DECOR & TENTING</h1>
+          </div>
+          <div class="decorbox">
+           <p>We specialize in "Wedding Decor Design". We at RTH believe in the beauty of our client's dreams and our work is a leap of imagination which brings happiness and joy to them. Every bit of wedding design is the cumulative effect of a large infrastructure.</p>
+          </div>
+          <div class="s1 bg2">
+            <div class="decor">
+              <h1>DESTINATION WEDDINGS</h1>
             </div>
-             <div id="boxarea">
-                 <div class="box bg1">
-                  </div>
-                <div class="box bg2">
-                </div>
-                <div class="box bg3">
-                </div>
+            <div class="decor">
+              Be it in India or overseas, RTH will take complete control of the event including assistance in selection of destination & Venue, decor, F&B, entertainment etc. Our years of experience in marriage logistics helps us plan and execute destination weddings without a flaw.
             </div>
-            
-           <div id="footerarea">
-              <div id="f1">
+            </div>
+            <div class="s1 bg3">
+              <div class="decor">
+                <h3>CORPORATE EVENTS</h3>
               </div>
-              <div id="f2">
+              <div class="decorbox">
+                <p>RTH specializes in organizing customized Corporate Events, Award Functions, Musical Nights, Exhibitions & Stall Designing on pan India basis.</p>
               </div>
-              <div id="f3">
-              </div>
-              <div id="f4">
-              </div>
-           </div>
-       </div>                
-    </body>
+            </div>
+          
+          </div>
+    </div>
+    <div class="testing">
+      <div class="ourtent">
+        <h1>Wedding Decor & Tenting</h1>
+        <div class="tentpic">
+          <img src=""/>
+        </div>
+      </div>
+      <div class="tentbox">
+        
+        <div class="t1">
+         <img src=""/>
+         </div>
+         <div class="t1">
+        <img src=""/>
+        </div>
+        <div class="t1">
+        <img src="" />
+       </div>
+      </div>
+    </div>
+    <div class="couplearea">
+      <div class="couple">
+        <div class="c1">
+          <img src=""/>
+        </div>
+        <div class="c1 f1">
+          <img src=""/>
+        </div>
+      </div>
+      <div class="couple">
+        <div class="marriage">
+          <div class="plan">
+            <h2>plan a merriege</h2>
+          </div>
+          <div class="with">
+            <h2> with us</h2>
+          </div>
+          <div class="bandhan">
+            <img src=""/>
+          </div>
+          <div class="now">
+            <h2>book now</h2>
+          </div>
+        </div>
+      </div>
+      <div class="couple3">
+        <div class="c3">
+          <img src=""/>
+        </div>
+        <div class="c3 f2">
+          <img src=""/>
+        </div>
+      </div>
+    </div>
+    <div class="venuearea">
+      <div class="venues">
+        <h2>veneus</h2>
+      </div>
+      <div class="localarea">
+        <ul>
+
+          <li><a href="">local</a></li>
+          <li><a href="">natinal</a></li>
+          <li><a href="">international</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
