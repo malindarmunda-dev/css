@@ -1,0 +1,348 @@
+
+
+<html>
+    <head>
+      <title>index.html</title>
+        <style type="text/css">
+    
+    body{
+        margin:0;
+        }
+        #rmenu{
+            width:50px;
+            height:150px;
+            background:blue;
+            position:fixed;
+            right:0;
+            top:100px;
+        }
+        #mainarea{
+              width:1200px;
+              height:1500px;
+              background:orange;
+              margin:0 auto;
+        }
+        #toparea{
+              width:1200px;
+              height:150px;
+              background:pink;
+          }
+          #logoarea{
+              width:150px;
+              height:150px;
+              background:purple;
+              float:left;
+          }
+          #titlearea{
+              width:1050px;
+              height:150px;
+              background:skyblue;
+              float:left;
+          }
+          #titlearea h1{
+              color: #131313;
+background: #e7e5e4;
+letter-spacing: .15em;
+text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89, -9px 18px 1px #8f8e8d, -10px 20px 1px #949392, -11px 22px 1px #999897, -12px 24px 1px #9e9c9c, -13px 26px 1px #a3a1a1, -14px 28px 1px #a8a6a6, -15px 30px 1px #adabab, -16px 32px 1px #b2b1b0, -17px 34px 1px #b7b6b5, -18px 36px 1px #bcbbba, -19px 38px 1px #c1bfbf, -20px 40px 1px #c6c4c4, -21px 42px 1px #cbc9c8, -22px 44px 1px #cfcdcd, -23px 46px 1px #d4d2d1, -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc, -27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2;
+              
+          }
+        #menuarea{
+              width:1200px;
+              height:40px;
+              background:yellow;
+              float:left;
+              position:sticky;
+              top:0;
+              z-index:100;
+          }
+            #menuarea ul{
+              list-style:none;
+              margin:0;
+              padding:0px;
+          }
+          #menuarea ul li{
+              float:left;
+          }
+          #menuarea ul li a:link,#menuarea ul li a:visited{
+                text-decoration:none;
+                color:red;
+                display:block;
+                border-right:solid 1px black;
+                padding:10px 25px;
+          }
+          #menuarea ul li a:hover{
+              color:yellow;
+              background:red;
+          }
+          #menuarea ul li ul{
+              display:none;
+          }
+           #menuarea ul li:hover ul{
+              display:block;
+              position:absolute;
+          }
+           #menuarea ul li:hover ul li a:link{
+              float:none;
+          }
+
+          #slidearea{
+              width:1200px;
+              height:600px;
+             background-image:repeating-iconic-gradient(red 50%,yellow 20%);
+      
+              float:left;
+          }
+          #slidearea p:nth-child(3){
+              color:red;
+          }
+          #sarea{
+            width:1000px;
+              height:200px;
+              background:skyblue;
+               float:left;
+          }
+          #darea{
+              width:1200px;
+              height:300px;
+              background:pink;
+              float:left;
+          }
+           #leftarea{
+              width:500px;
+              height:200px;
+              background:blue;
+              float:left;
+              margin:50px;
+          }
+          #rightarea{
+              width:500px;
+              height:200px;
+              background:purple ;
+              float:left;
+              margin:50px;
+              overflow-x:auto;
+          }
+          #rightarea table{
+              width:100px;
+              height:50px;
+              background:yellow;
+              border-collapse:collapse;
+          }
+          #rightarea table tr:first-child{
+              /*background:#ccc;*/
+          }
+          #rightarea table,#rightarea table tr th,#rightarea table tr td{
+              border:solid 1px black;
+              
+          }
+          #rightarea table tr:nth-child(odd){
+              /*background:#ccc;*/
+          }
+          #rightarea table tr:hover{
+              background:#ccc;
+          }
+          #boxarea{
+              width:1200px;
+              height:300px;
+              background:darkgreen;
+              float:left;
+          }
+          .box{
+              width:260px;
+              height:160px;
+              float:left;
+              margin:50px;
+            
+                /* transform:rotate(-30deg);*/
+              /* transform:scale(0.5,0.5);
+                  /*transform:translate(0px,-50px);
+             /* border-top-style:solid;
+              border-top-width:20px;
+              border-top-color:black;*/
+             /* border-top:solid 20px black;*/
+              border:solid 20px transparent;
+              overflow:hidden;
+          }
+          
+        .box img{
+            width:260px;
+            height:160px;
+          }
+        
+        .box:hover img{
+                     transform:scale(1.2,1.2) rotate(10deg);
+        }
+          #footerarea{
+              width:1200px;
+              height:410px;
+              background:red;
+              float:left;         
+          }
+          #f1 ul{
+              width:300px;
+              height:410px;
+              background:;
+              float:left;
+              list-style:inside square lower-roman;
+              list-style-image:url('https://www.mpsckp.com/images/arr.png')
+              
+              }
+          #f2{        
+              width:300px;
+              height:410px;
+              background:skyblue;
+              float:left;
+          }
+          #f2 ui{
+              padding:0;
+          }
+          #f2 ul li a:link,#f2 ul li a:visited{
+                text-decoration:none;
+                color:red;
+          }
+          #f2 ul li a:hover{
+              color:#087519;
+          }
+          #f3{
+             width:300px;
+              height:410px;
+              background:pink   ;
+              float:left;
+          }
+          #f3 ul{
+              list-style:none;
+              margin:0;
+              padding:0px;
+          }
+          #f3 ul li a:link,#f3 ul li a:visited{
+                text-decoration:none;
+                color:red;
+                display:block;
+                border-bottom:solid 1px black;
+                padding:10px 25px;
+          }
+          #f3 ul li a:hover{
+              color:yellow;
+              background:red;
+          }
+          #f4{  
+              width:300px;
+              height:410px;
+              background:;
+              float:left;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="rmenu">
+        </div>
+        
+        <div id="mainarea" >
+        
+             <div id="toparea">
+                <div id="logoarea">
+                </div>
+                <div id="titlearea">
+                <div id="titlearea h1">
+                    <h1>arti munda</h1>
+                </div>
+                </div>
+             </div>
+            <div id="menuarea" >
+                  <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">product</a>
+                        
+                            <ul>
+                                <li><a href="#">p1</a></li>
+                                <li><a href="#">p2</a></li>
+                          </ul>
+                          
+                             <ul>
+                                <li><a href="#">p3</a></li>
+                                <li><a href="#">p4</a></li>
+                            </ul>
+                          
+                            <ul>
+                                <li><a href="#">p5</a></li>
+                                <li><a href="#">p6</a></li>
+                            </ul>
+                           
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a>
+                        </li>
+                    </ul>
+             </div>
+             <div id="slidearea">
+                <video width="100%" height="100%" poster="bg5.webp" loop controls>
+                    <source src="rain.mp4" type="video/mp4"/>
+                </video>
+             </div>
+             <div id="darea">
+                 <div id="leftarea">
+                  </div>
+                  <div id="rightarea">
+                  <table>
+                      <tr>
+                        <th>name</th>
+                        <th>roll</th>
+                      </tr>
+                      <tr>
+                        <td>arti</td>
+                        <td>2</td>
+                      </tr>
+                  </table>
+                 </div>
+             
+            </div>
+        
+             <div id="boxarea">
+                 <div class="box bg1">
+                      <img src="1.webp">
+                      
+                  
+                  </div>
+                <div class="box bg2">
+                   <img src="1.webp">
+                    
+                  
+                </div>
+                <div class="box bg3">
+                   <img src="1.webp">
+                      
+                    
+                </div>
+            </div>
+            
+           <div id="footerarea">
+              <div id="f1">
+                    <ul>
+                        <li>home</li>
+                        <li>about</li>
+                        <li>gallery</li>
+                        <li>contact</li>
+                    </ul>
+              </div>
+              <div id="f2">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+              </div>
+              <div id="f3">
+                       <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+              </div>
+              <div id="f4">
+              </div>
+           </div>
+       </div>                
+    </body>
+</html>
