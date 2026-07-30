@@ -1,0 +1,415 @@
+ <html>
+    <head>
+        <tiltle></title>
+            <style type="text/css">
+            body{
+                margin:0 auto;
+                padding:0 auto;
+            }
+              .mainarea{
+                  width:100%;
+                  height:3500px;
+                  background:red;
+                  margin:0 auto;
+              }
+              .titlearea{
+                  width:100%;
+                  height:10px;
+                  background:black;
+                  font-family:cursive;
+                  font-weight:bold;
+                  padding:50px;
+                  color:white;
+                  font-size:-50px;
+              }
+              .titlearea ul{
+                  list-style:none;
+                  margin:0;
+                  padding:0;
+              }
+              .titlearea ul li{
+                  float:left;
+              }
+              .titlearea ul li a:link,.titlearea ul li a:visited{
+                  text-decoration:none;
+                  color:white;
+                  display:block;
+                  border-right:solid 1px black;
+                  padding:10px 25px;
+              }
+              .titlearea ul li a:hover{
+                  color:purple;
+                  background:black;
+              }
+              .titlearea ul li ul{
+                  display:none;
+              }
+              .titlearea ul li a:hover ul{
+                  display:block;
+                  position:absolute;
+              } 
+               .titlearea ul li:hover ul li a:link{
+                  float:none;
+               }   
+               .menuarea{
+                  width:100%;
+                  height:50px;
+                  background:black;
+                  float:left;
+                  position:sticky;
+                  top:0;
+                  z-index:100;
+               }   
+               .menuarea ul{
+                  list-style:none;
+                  margin:0;
+                  padding:0;
+              }
+              .menuarea ul li{
+                  float:left;
+              }
+              .menuarea ul li a:link,.menuarea ul li a:visited{
+                  text-decoration:none;
+                  color:white;
+                  display:block;
+                  border-right:solid 1px black;
+                  padding:10px 25px;
+              }
+              .menuarea ul li a:hover{
+                  color:purple;
+                  background:black;
+              }
+              .menuarea ul li ul{
+                  display:none;
+              }
+              .menuarea ul li:hover ul{
+                  display:block;
+                  position:absolute;
+              } 
+               .menuarea ul li:hover ul{
+                  float:none;
+               }   
+               .slidearea{
+                  width:1400px;
+                  height:400px;
+                  background:grey;
+                  font-family:arial;
+                  font-weight:bold;
+                  padding:50px;
+                  color:white;
+                  font-size:50px;
+                  float:center;
+                  text-align:center;
+               }
+               .slidearea2{
+                  width:1500px;
+                  height:100px;
+                  text-align:center;
+                  line-height:50px;
+               }
+               
+                .box{
+                   width:900px;
+                  height:1000px;
+                  background:#FAFAFA;
+                  padding:300px;
+                  float:center;
+                  margin-bottom:90px;
+                  margin-top:-50px;
+                }  
+                .bg1{
+                  width:800px;
+                  height:600px;
+                  background:white;
+                  padding:30px;
+                  float:center;
+                  margin-bottom:90px;
+                  margin-left:10px;
+                  border-radius:10px;
+                  color:white;
+                  font-size:20px;
+                  text-align:top;
+                }  
+                
+             
+                .bg1 img{
+                    width:800px;
+                    height:600px;
+                    border-radius:10px;
+                    margin:-100px -30px;
+                    padding-left:-30px;
+                }
+                 .bg1 a:link,.bg1 a:visited{
+                color:blue;
+                text-decoration:none;
+               }
+                .bg1 a:hover{
+                color:#AA73BF;
+              }
+ 
+                .bg2{
+                  width:400px;
+                  height:270px;
+                  background:white;
+                  margin:20px;
+                  float:left;
+                  border-radius:10px;
+                }  
+                .bg2 img{
+                    width:400px;
+                    height:270px;
+                    border-radius:10px;
+                    margin:-100px -30px;
+                    padding-left:-30px;
+                }
+                .bg3{
+                  width:400px;
+                  height:270px;
+                  background:white;
+                  margin:20px;
+                  float:left;
+                  border-radius:10px;
+                  color:white;
+                }  
+                .bg3 img{
+                    width:400px;
+                    height:270px;
+                    border-radius:10px;
+                    margin:-100px -30px;
+                    padding-left:-30px;
+                }
+                .bg4{
+                  width:400px;
+                  height:270px;
+                  background:white;
+                  margin:20px;
+                  float:left;
+                 border-radius:10px;
+                 } 
+                 .bg4 img{
+                    width:400px;
+                    height:270px;
+                    border-radius:10px;
+                    margin:-100px -30px;
+                    padding-left:-30px;
+                }
+                .bg5{
+                   width:400px;
+                  height:270px;
+                  background:white;
+                  margin:20px;
+                  float:left;
+                   border-radius:10px;  
+                }
+                .bg5 img{
+                    width:400px;
+                    height:270px;
+                    border-radius:10px;
+                    margin:-100px -30px;
+                    padding-left:-30px;
+                }
+               .logoarea{
+                   width:1459px;
+                  height:50px;
+                  background:white;
+                  margin-top:-100px;
+                  float:center;
+                  margin-right:100px;
+                  font-family:arial;
+                  border-radius:10px;
+                  color:black;
+                  font-size:50px;
+                  font-weight:bold;
+                  padding:70px;
+                  margin-top:-100px;
+               }   
+               .savearea{
+                  width:1500px;
+                  height:300px;
+                  background:white;
+          
+                  border:1px solid black;
+                  padding:-300px;
+               }   
+              .savearea1{
+                  width:375px;
+                  height:300px;
+                  background:white;
+                  float:left;
+                  border:1px solid black;
+                
+              }    
+              .savearea2{
+                  width:375px;
+                  height:300px;
+                  background:white;
+                  float:left;
+                  border:1px solid black;
+            
+              }    
+             .savearea3{
+                width:375px;
+                  height:300px;
+                  background:white;
+                float:left;
+                  border:1px solid black;
+                  
+            }   
+            .savearea4{
+                  width:375px;
+                  height:300px;
+                  background:white;
+                float:left;
+                  border:1px solid black;
+            
+              } 
+           .rainarea{
+              width:1400px;
+              height:500px;
+              background:skyblue;
+        
+            }
+          .rainarea1{
+               width:500px;
+              height:250px;
+              background:maroon;
+              float:left;
+           
+            }        
+         .rainarea img{
+         
+           }         
+          .hiarea{
+             width:1500px;
+            height:250px;
+            background:blue;
+           
+           }  
+            .narea{
+                  width:1400px;
+                  height:300px;
+                  background:white;
+                  padding:50px;
+                  border:1px solid black;
+                  padding:-300px;
+               }   
+              .narea1{
+                  width:300px;
+                  height:250px;
+                  background:orange;
+                  float:left;
+                  border:1px solid black;
+                  padding:10px;
+                  margin:10px;
+              }    
+              .narea2{
+                  width:300px;
+                  height:250px;
+                  background:orange;
+                  float:left;
+                  border:1px solid black;
+                  padding:10px;
+                  margin:10px;
+              }    
+             .narea3{
+                width:300px;
+                  height:250px;
+                  background:orange;
+                float:left;
+                  border:1px solid black;
+                  padding:10px;
+                  margin:10px;
+            }   
+            .narea4{
+                  width:300px;
+                  height:250px;
+                  background:orange;
+                  float:left;
+                  border:1px solid black;
+                  padding:10px;
+                  margin:10px;
+              } 
+              
+            </style>
+            <body>
+                <div class="mainarea">
+                    <div class="menuarea">
+                        <ul>
+                            <li><a href="#">AI</a></li>
+                             <li><a href="#">DESIGN TOOLS</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">INVESTORS</a></li>
+                            <li><a href="#">CAREER</a></li>
+                        </ul>
+                    </div>
+                    <div class="titlearea">
+                        <p>micron</p>
+                    </div>
+                    <div class="slidearea">
+                        <video width="100%" height="100%" poster="bg5.webp" loop controls>
+                         <source src="micron.mp4" type="video/mp4"/>
+
+                        <h1>micron is the critical layer</h1>
+                           <div class="slidearea2">
+                              <h2> powering ai</h2>  
+                        
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="bg1">
+                             <img src="modi.avif"/>
+                                 <h3><br>global print</br> <a href="#">micron celebrate facility in the India</a></h3>
+                                 </div>
+                        <div class="bg2">  
+                              <img src="micron1.avif"/>
+                        </div>
+                        <div class="bg3">
+                             <img src="press.avif"/>
+                            <h3><br>corporate</br>micron and anthropic announce strategic agreement</h3>
+                        </div>
+                        <div class="bg4">
+                            <img src="micron2.avif"/>
+                        </div>
+                        <div class="bg5">
+                              <img src="micron3.avif"/>
+                        </div>
+                    
+                    </div>
+                    <div class="logoarea">
+                        <h3>innovation make new solution possible</h3>
+                    </div>
+                    <div class="savearea">
+                        <div class="savearea1">
+                        </div>
+                       <div class="savearea2">
+                       </div>
+                        <div class="savearea3">
+                        </div>
+                      
+                        
+                      </div>
+                     <div class="rainarea">
+                          </divv>    
+                    <div class="rainarea1">
+                  
+                        </div>
+                    <div class="hiarea">
+                        </div>
+      
+                    <div class="narea">
+                           <p>features</p>
+                           <div class="narea1">
+                        </div>
+                            <div class="narea2">
+                       </div>
+                           <div class="narea3">
+                        </div>
+                      <div class="narea4">
+                        </div>
+                      
+                   </div>
+                   
+                </div>
+            </body>
+    </head>
+ </html>
