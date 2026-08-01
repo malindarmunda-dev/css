@@ -116,14 +116,46 @@
                 height:500px;
                 background:blue;
                 overflow:hidden;
-                float:left;
+                z-index:100;
+                position:relative;
+                text-align:center;
                 }
               .micron1{
-                  width:200px;
-                  height:100px;
-                  float:left;
-                  background:red;
+                  width:100%;
+                  height:100%;
+                  z-index:100;
+                  position:absolute;
+                  inset:0;
+                  margin:auto;
+                  color:white;
                 }
+                .heading{
+                    font-size:80px;
+                    margin-top:100px;
+                    font-weight:bold;
+                  
+                  }
+                .subheading{
+                    font-size:15px;
+                    font-weight:bold;
+                    background:black;
+                    color:white;
+                    padding-left:30px;
+                    border-radius:50px;
+                    padding:16px 32px;
+                    position:relative;
+                    top:20px;
+                    border:purple;
+                    }
+               .subheading:hover{
+                    color:purple;
+                    
+               }
+                .micron1 p{
+                    color:white;
+                    font-family:arial;  
+                }
+            
                /* .a1{
                   color:white;
                   font-family:arial;
@@ -172,7 +204,7 @@
               }*/
                .boxarea{
                  width:100%;
-                 height:900px;
+                 height:450px;
                  padding:0;
                }
                .boxarea1{
@@ -378,62 +410,224 @@
                }
               .logoarea{
                   width:100%;
-                  height:500px;
+                  height:550px;
                   background:green;
                   margin-top:500px;
               }
               .fararea{
-                  width:800px;
+                  width:900px;
                   height:100px;
                   background:yellow;
                   margin-left:300px;
+                  margin-right:50px;
+                  float:left;
               }
-              .faarea p{
+              .fararea p{
                   color:black;
                   text-align:center;
-              }
-              .logoarea1{
-                  width:300px;
-                  height:350px;
-                  background:red;
+                  font-size:40px;
+                  font-family:arial;
+                  font-weight:bold;
                   float:left;
-                  margin-left:100px;
-                  margin-top:50px;
-              }
-              .logoarea1 p{
-                  color:black;
-                  border:1px solid black;
-                  margin-top:100px;
-              }
-              .logoarea2{
-                  width:300px;
-                  height:350px;
-                  background:blue;
-                  float:left;
-                  margin-left:100px;
-                  margin-top:50px;
-              }
-              .logoarea3{
-                  width:300px;
-                  height:350px;
-                  background:red;
-                  margin-left:100px;
-                  margin-top:50px;
-                  float:left;
-              }
-              .logoarea4{
-                  width:300px;
-                  height:350px;
-                  background:blue;
-                  margin-left:100px;
-                  margin-top:50px;
-                  float:left;
-              }
+            }
               .bararea{
                   width:100%;
-                  height:500px;
-                  background:green;
+                  height:400px;
+                  background:black;
               }
+              .mearea{
+                  width:600px;
+                  height:300px;
+                  background:orange;
+                  float:left;
+                  margin-left:200px;
+                  margin-top:60px;
+                  border-radius:10px;
+                }
+                .mearea img{
+                  width:600px;
+                  height:300px;
+                  border-radius:10px;
+                }
+              .youarea{
+                  width:700px;
+                  height:300px;
+                  background:black;
+                  float:left;
+                  margin-left:100px;
+                  margin-top:60px; 
+                  border-radius:10px;
+              }
+             .narea{
+                  width:250px;
+                  height:30px;
+                  border:1px solid red;
+                  color:white;
+                  font-weight:bold;
+                  font-family:arial;
+                  font-size:15px;
+                  margin-top:15px;
+             }
+             .barea{
+                width:700px;
+                height:80px;
+                border:1px solid red;
+                color:white;
+                font-family:arial;
+                font-size:40px;
+                margin-top:20px;
+             }
+             .nowarea{
+                width:700px;
+                height:80px;
+                border:1px solid red;
+                color:white;
+                font-size:15px;
+                font-family:arial;
+                margin-top:20px;
+             }
+             .aibox{
+                width:280px;
+                height:50px;
+                float:left;
+                border:4px solid purple;
+                margin-left:200px;
+                border-radius:50px;
+                background:black;
+              }
+              
+              .aibox p{
+                color:white;
+                font-weight:bold;
+                font-size:20px;
+                font-family:arial;
+                text-align:center;
+                padding-top:-20px;
+              }
+              .aibox a:link,.aibox a:visited{
+                display:block;
+                text-decoration:none;
+                color:white;
+              }
+              .aibox p a:hover{
+                color:purple;
+              }
+               .fearea{
+                    width:100%;
+                    height:100px;
+                    background:pink;
+                    float:left;
+                    font-size:50px;
+                    font-family:arial;
+                    font-weight:bold;
+               }
+               .picarea{
+                    width:100%;
+                    height:500px;
+                    background:black;
+               }
+               .pic1{
+                  width:300px;
+                  height:350px;
+                  border:1px solid red;
+                  float:left;
+                  margin-top:20px;
+                  margin-left:150px;
+               }
+               .row{
+                  width:300px;
+                  height:175px;
+                  border:1px solid pink;
+                  float:left;
+                  border-radius:10px;
+               }
+               .row img{
+                  width:300px;
+                  height:175px;
+                  border-radius:10px;
+               }
+               .row1{
+                  width:300px;
+                  height:175px;
+                  border:1px solid orange;
+                  float:left;
+               }
+               .pic2{
+                  width:300px;
+                  height:350px;
+                  border:1px solid red;
+                  float:left;
+                  margin-top:20px;
+                  margin-left:80px;
+               }
+                .row2{
+                  width:300px;
+                  height:175px;
+                  border:1px solid pink;
+                  float:left;
+               }
+               .row2 img{
+                  width:300px;
+                  height:175px;
+                  border-radius:10px;
+               }
+                .row3{
+                  width:300px;
+                  height:175px;
+                  border:1px solid orange;
+                  float:left;
+               }
+               .pic3{
+                  width:300px;
+                  height:350px;
+                  border:1px solid red;
+                  float:left;
+                  margin-top:20px;
+                  margin-left:80px;
+               }
+               .row4{
+                  width:300px;
+                  height:175px;
+                  border:1px solid pink;
+                  float:left;
+               }
+                .row4 img{
+                  width:300px;
+                  height:175px;
+                  border-radius:10px;
+               }
+                .row5{
+                  width:300px;
+                  height:175px;
+                  border:1px solid orange;
+                  float:left;
+               }
+               
+              .pic4{
+                  width:300px;
+                  height:350px;
+                  border:1px solid red;
+                  float:left;
+                  margin-top:20px;
+                  margin-left:80px;
+               }
+               .row6{
+                  width:300px;
+                  height:175px;
+                  border:1px solid pink;
+                  float:left;
+               }
+               .row6 img{
+                  width:300px;
+                  height:175px;
+                  border-radius:10px;
+               }
+                .row7{
+                  width:300px;
+                  height:175px;
+                  border:1px solid orange;
+                  float:left;
+               }
         </style>
     </head>
     <body>
@@ -463,11 +657,14 @@
             </div>
         </div>
         <div class="micron">
-               <video width="100%" height="100%" autoplay muted>
+               <video width="100%" autoplay muted lo
+               
+              lop>
                 <source src="micron2.mp4" type="video/mp4"/>
-            </video>
+               </video>
             <div class="micron1">
-                  
+                  <div class="heading">Micron is the critical layer<br> POWERED AI</div>
+                  <a href="#" class="subheading">ACCELERATION YOUR AI</a>
             </div>
         </div>
         <div class="boxarea">
@@ -523,19 +720,62 @@
         </div>
         <div class="logoarea">
               <div class="fararea">
-                    <p></p>
+                  <div class="fararea p">
+                    <p>Innovation makes new solutions possible</p>
+                  </div>
               </div>
-                <div class="logoarea1">
-                      <p></p>
-               </div>
-               <div class="logoarea2">
-               </div>
-               <div class="logoarea3">
-               </div>
-               <div class="logoarea4">
-               </div>
+       </div>
+            <div class="bararea">
+                <div class="mearea">
+                      <img src="machine.avif"/>
+                </div>
+                <div class="youarea">
+                    <div class="narea">
+                      MARKET AND INDUSRTIES
+                    </div>
+                    <div class="barea">
+                    Memory and storage for industrial IoT solutions
+                    </div>
+                    <div class="nowarea">
+                    Micron engineers advanced memory and storage solutions designed to meet the dynamic demands of industrial IoT and aerospace systems. Our technologies provide exceptional performance, reliability, and longevity, ensuring high-quality applications with a zero-defect mindset.
+                   </div>
+                        <div class="aibox">
+                           <p><a href="">EXPLORE A SOLUTIONS</a></p>
+                      </div>
+             </div>
         </div>
-        <div class="bararea">
-        </div>
+          <div class="fearea">
+          features blogs
+          </div>
+          <div class="picarea">
+                <div class="pic1">
+                    <div class="row">
+                        <img src="big.avif"/>
+                    </div>
+                    <div class="row1">
+                    </div>
+                </div>
+                <div class="pic2">
+                    <div class="row2">
+                        <img src="getty.avif"/>
+                    </div>
+                    <div class="row3">
+                    </div>
+                </div>
+                <div class="pic3">
+                    <div class="row4">
+                          <img src="hero.avif"/>
+                    </div>
+                    <div class="row5">
+                    </div>
+                </div>
+                <div class="pic4">
+                   <div class="row6">
+                        <img src="cbo.avif"/>
+                    </div>
+                    <div class="row7">
+                    </div>
+                </div>                
+          </div>
     </body>
 </html>
